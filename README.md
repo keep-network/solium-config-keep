@@ -11,20 +11,23 @@ Standard configuration for linting Solidity code using [ethlint/Solium](https://
 ### Setting up a project
 
  1. Install the linter and config - `npm i -D ethlint https://github.com/keep-network/ethlint-config-keep.git`
- 2. Create your `.ethlintrc.json`:
+ 2. Create your `.soliumrc.json`:
  ```json
- {
-   "extends": "ethlint-config-keep"
- }
+{
+  "extends": "keep",
+  "plugins": [
+    "security"
+  ]
+}
  ```
  3. Add commands for linting to your `package.json`:
  ```json
- {
-   "scripts": {
-     "sol:lint": "solium -d contracts/",
-     "sol:lint:fix": "solium -d contracts/ --fix"
-   }
- }
+{
+  "scripts": {
+    "sol:lint": "solium -d contracts/",
+    "sol:lint:fix": "solium -d contracts/ --fix"
+  }
+}
  ```
 
 ### Adding a pre-commit hook

@@ -1,8 +1,11 @@
+'use strict';
+
 module.exports = {
-  'extends': 'solium:recommended',
-  'plugins': [
-    'security',
-  ],
+  // Due to issues with Solium, shareable configs don't currently support extension.
+  // Sigh!
+  // https://sourcegraph.com/github.com/duaraghav8/Ethlint/-/blob/config/schemas/sharable-config.js
+  // 'extends': 'solium:recommended',
+  
   'rules': {
     'quotes': [
       'error',
