@@ -1,16 +1,16 @@
-# ethlint-config-keep
+# solium-config-keep
 
 Standard configuration for linting Solidity code using [ethlint/Solium](https://github.com/duaraghav8/Ethlint).
 
 ## Installation
 
-`npm i https://github.com/keep-network/ethlint-config-keep.git`
+`npm i https://github.com/keep-network/solium-config-keep.git`
 
 ## Usage
 
 ### Setting up a project
 
- 1. Install the linter and config - `npm i -D ethlint https://github.com/keep-network/ethlint-config-keep.git`
+ 1. Install the linter and config - `npm i -D ethlint https://github.com/keep-network/solium-config-keep.git`
  2. Create your `.soliumrc.json`:
  ```json
 {
