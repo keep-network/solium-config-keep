@@ -1,0 +1,26 @@
+{
+  "name": "ethlint-config-keep",
+  "version": "0.1.0",
+  "description": "ethlint/solium shareable config for the Keep style",
+  "author": "liamzebedee",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "solium -c index.js -f test/Test.sol",
+    "js:lint": "eslint *.js",
+    "js:lint:fix": "eslint --fix *.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-keep": "git+https://github.com/keep-network/eslint-config-keep.git",
+    "ethlint": "^1.2.3"
+  },
+  "peerDependencies": {
+    "ethlint": ">=1.2.3"
+  },
+  "dependencies": {}
+}
