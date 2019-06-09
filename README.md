@@ -42,8 +42,10 @@ Edit the `.soliumrc.json`.
 `/* solium-enable */`
 
 #### Line
-`// solium-disable-next-line <rules>`
-`// solium-disable-previous-line <rules>`
+Prefer `/*` over `//`, as it looks different to a comment on the rationale of code. 
+
+`/* solium-disable-next-line <rules> */`
+`/* solium-disable-previous-line <rules> */`
 
 
 ### Adding a pre-commit hook
