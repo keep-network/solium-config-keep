@@ -1,6 +1,6 @@
 # solium-config-keep
 
-Standard configuration for linting Solidity code using [ethlint/Solium](https://github.com/duaraghav8/Ethlint). Uses the `solium:recommended`, which itself is taken from the [Solidity Style Guide](https://solidity.readthedocs.io/en/v0.5.9/style-guide.html).
+Standard configuration for linting Solidity code using [ethlint/Solium](https://github.com/duaraghav8/Ethlint). Uses the `solium:recommended` ruleset, which itself is taken from the [Solidity Style Guide](https://solidity.readthedocs.io/en/v0.5.9/style-guide.html).
 
 ## Installation
 
