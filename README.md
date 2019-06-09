@@ -30,6 +30,22 @@ Standard configuration for linting Solidity code using [ethlint/Solium](https://
 }
  ```
 
+### Disabling the linter
+#### Directory
+Edit the `.soliumrc.json`.
+
+#### File
+`/* solium-disable */`
+
+#### Code block
+`/* solium-disable */`
+`/* solium-enable */`
+
+#### Line
+`// solium-disable-next-line <rules>`
+`// solium-disable-previous-line <rules>`
+
+
 ### Adding a pre-commit hook
 ```yaml
 - repo: local
