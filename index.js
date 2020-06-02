@@ -14,6 +14,7 @@ module.exports = {
     'quotes': ['error', 'double'],
     "value-in-payable": "error",
     "linebreak-style": "error",
+    "error-reason": ["error", { "errorMessageMaxLength": 250 }],
 
     "no-empty-blocks": "warning",
     "indentation": ["error", 4],
@@ -30,7 +31,6 @@ module.exports = {
     "constructor": "error",
     "visibility-first": "error",
 
-    "error-reason": "off",
     "lbrace": "off",
     "mixedcase": "off",
     "camelcase": "off",
