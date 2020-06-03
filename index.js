@@ -5,7 +5,7 @@ module.exports = {
   // Sigh!
   // https://sourcegraph.com/github.com/duaraghav8/Ethlint/-/blob/config/schemas/sharable-config.js
   // 'extends': 'solium:recommended',
-  
+
   'rules': {
     "imports-on-top": "error",
     "variable-declarations": "error",
@@ -14,6 +14,7 @@ module.exports = {
     'quotes': ['error', 'double'],
     "value-in-payable": "error",
     "linebreak-style": "error",
+    "error-reason": ["error", { "errorMessageMaxLength": 250 }],
 
     "no-empty-blocks": "warning",
     "indentation": ["error", 4],
@@ -27,7 +28,6 @@ module.exports = {
     "emit": "error",
     "no-constant": "warning",
     "max-len": "error",
-    "error-reason": "error",
     "constructor": "error",
     "visibility-first": "error",
 
