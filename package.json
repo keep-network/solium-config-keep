@@ -1,6 +1,6 @@
 {
   "name": "solium-config-keep",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ethlint/solium shareable config for the Keep style",
   "author": "liamzebedee",
   "engines": {
