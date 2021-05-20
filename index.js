@@ -17,14 +17,8 @@ module.exports = {
     "error-reason": ["error", { "errorMessageMaxLength": 250 }],
 
     "no-empty-blocks": "warning",
-    "indentation": ["error", 4],
-    "whitespace": "warning",
     "deprecated-suicide": "warning",
     "pragma-on-top": "error",
-    "function-whitespace": "error",
-    "semicolon-whitespace": "error",
-    "comma-whitespace": "error",
-    "operator-whitespace": "off",
     "emit": "error",
     "no-constant": "warning",
     "max-len": "error",
@@ -38,8 +32,16 @@ module.exports = {
     "blank-lines": "off",
     "arg-overflow": "off",
     "function-order": "error",
-    "conditionals-whitespace": "off",
     "no-experimental": "error",
-    "no-trailing-whitespace": "warning"
+
+    // Handled by prettier
+    "indentation": ["off"],
+    "conditionals-whitespace": "off",
+    "whitespace": "off",
+    "function-whitespace": "off",
+    "semicolon-whitespace": "off",
+    "comma-whitespace": "off",
+    "operator-whitespace": "off",
+    "no-trailing-whitespace": "off"
   },
 };
